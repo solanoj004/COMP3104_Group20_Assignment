@@ -1,0 +1,50 @@
+name: Branch Activity Notification
+
+on:
+  push:
+    branches:
+      - '*'  # This will trigger on push to any branch
+  pull_request:
+    branches:
+      - '*'  # This will trigger on pull requests to any branch
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Echo branch and repository info
+        run: |
+          echo "Event: ${{ github.event_name }}"
+          echo "Repository: ${{ github.repository }}"
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            echo "Branch: ${{ github.ref }}"
+          elif [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "Branch: ${{ github.head_ref }}"
+            echo "Pull Request #${{ github.event.pull_request.number }}"
+          fi
+
+      - name: Check if repository is cloned
+        run: |
+          if [ -d ".git" ]; then
+            echo "Repository has been successfully cloned."
+          else
+            echo "Repository has not been cloned."
+          fi
+
+      - name: List files in the repository
+        run: |
+          echo "Files in the repository:"
+          ls -R
+
+      - name: Echo job status
+        run: |
+          echo "Current job status: ${{ job.status }}"
+
+      - name: Final status
+        if: always()
+        run: |
+          echo "Job completed with status: ${{ job.status }}"
