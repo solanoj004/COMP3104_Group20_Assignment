@@ -5,3 +5,7 @@ where automated tests run to detect problems early.
 
 2. Continuous Delivery (CD): Automated processes ensure that code changes can be released to production at any time, 
 enabling frequent and reliable deployments.
+
+3. Infrastructure as Code (IaC): Infrastructure is provisioned and managed using code 
+and automation rather than through manual processes. 
+Tools like Terraform and Ansible are commonly used for this.
