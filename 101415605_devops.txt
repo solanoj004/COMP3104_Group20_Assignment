@@ -11,3 +11,6 @@ and automation rather than through manual processes.
 Tools like Terraform and Ansible are commonly used for this.
 
 4. Monitoring and Logging: Continuous monitoring of the application and infrastructure helps in detecting and resolving issues quickly.
+
+5. Collaboration: DevOps promotes a culture of collaboration between developers 
+and IT operations to ensure faster problem-solving and innovation.
