@@ -3,3 +3,12 @@
 2. There are over 50 different SDLC models, each with its own unique approach to software development
 
 3. The popular "Waterfall" model was first formally described in 1970 by Winston W. Royce, although he actually presented it as a flawed model.
+
+4. The term "Agile" was coined in 2001 with the creation of the Agile Manifesto, but its principles were in use much earlier.
+
+5. The "Spiral" model, introduced by Barry Boehm in 1986, was inspired by the shape of a nautilus shell.
+
+6. The "DevOps" approach, which aims to unify software development and operations, became popular in the late 2000s.
+
+7. The average length of an SDLC for enterprise software development is typically 4-9 months, 
+but can vary greatly depending on the project and methodology used.
