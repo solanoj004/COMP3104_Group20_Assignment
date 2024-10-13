@@ -1,0 +1,6 @@
+Welcome to the course!
+In this course, we will explore the DevOps best practices along with some tools and technologies required to implement DevOps. 
+By the end of the course, you will be prepared to explore job opportunities as a DevOps engineer. 
+You will learn the procedures, protocols, and best practices that a DevOps engineer brings to a workplace environment to increase productivity. 
+Analyze and evaluate various developer operation implementations that are available and implement hands-on work using the industry-standard toolkit. 
+Create a solution to complex business problems by adhering to the core responsibilities of DevOps.
