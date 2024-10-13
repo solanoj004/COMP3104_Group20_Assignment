@@ -1,0 +1,5 @@
+1. The SDLC concept originated in the 1960s, evolving alongside the growth of computer technology.
+
+2. There are over 50 different SDLC models, each with its own unique approach to software development
+
+3. The popular "Waterfall" model was first formally described in 1970 by Winston W. Royce, although he actually presented it as a flawed model.
