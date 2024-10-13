@@ -1,7 +1,7 @@
 # COMP3104_Group20_Assignment
 
 ## Group Members
-
+- **Leader** Jacob Solano (101348583) - [GitHub](https://github.com/solanoj004)
 - **Member 2:** Simon Vu (101415605) - [GitHub](https://github.com/Simon07012002)
 
 
