@@ -5,4 +5,3 @@ You will learn the procedures, protocols, and best practices that a DevOps engin
 Analyze and evaluate various developer operation implementations that are available and implement hands-on work using the industry-standard toolkit. 
 Create a solution to complex business problems by adhering to the core responsibilities of DevOps.
 
-https://about.gitlab.com/topics/devops/
