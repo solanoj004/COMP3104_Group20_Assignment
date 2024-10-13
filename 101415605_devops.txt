@@ -2,3 +2,6 @@ Information about the COMP 3104 DevOps course.
 
 1. Continuous Integration (CI): Developers frequently integrate their code into a shared repository, 
 where automated tests run to detect problems early.
+
+2. Continuous Delivery (CD): Automated processes ensure that code changes can be released to production at any time, 
+enabling frequent and reliable deployments.
