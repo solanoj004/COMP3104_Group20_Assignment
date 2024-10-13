@@ -9,3 +9,5 @@ enabling frequent and reliable deployments.
 3. Infrastructure as Code (IaC): Infrastructure is provisioned and managed using code 
 and automation rather than through manual processes. 
 Tools like Terraform and Ansible are commonly used for this.
+
+4. Monitoring and Logging: Continuous monitoring of the application and infrastructure helps in detecting and resolving issues quickly.
