@@ -16,5 +16,5 @@ collaborative Git workflows, branching strategies, and CI/CD integration.
 The project utilizes GitHub Actions for continuous integration. The workflow is defined
 in `.github/workflows/ci.yml`.
 ## Branching Strategy
-
+- **Leader:** Jacob Solano (101348583) - Branch named: "101348583-JacobSolano"
 - **Member 2:** Simon Vu (101415605) - Branch named: "101415605-SimonVu"
