@@ -1,1 +1,2 @@
 Learn to use various tools like Docker, Kubernetes, Jenkins, Ansible, and Terraform for automation and orchestration. 
+The course covers topics such as version control with Git, cloud computing (often with AWS or Azure), and containerization.
